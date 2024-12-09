@@ -12,9 +12,7 @@ const DataComponent = ({data}) => {
                 <tbody>
                     {data.map((el, idx) => (
                         <tr key={idx} style={{border:'black'}}>
-                        
                             <td >{el.name}</td>
-                       
                     </tr>
                     ))}
                 </tbody>
