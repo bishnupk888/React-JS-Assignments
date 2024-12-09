@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
         <ButtonComponent getData={getAllData}/>
-        <DataComponent data={allData}/>
+        <DataComponent data={allData} setAllData={setAllData}/>
     </div>
   );
 }
